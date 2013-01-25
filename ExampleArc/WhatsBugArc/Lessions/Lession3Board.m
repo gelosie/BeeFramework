@@ -65,7 +65,7 @@ DEF_SIGNAL( ENTER );
 {
 	if ( [signal is:Lession3Board.ENTER] )
 	{
-		Lession3Board * board = [[[Lession3Board alloc] init] autorelease];
+		Lession3Board * board = [[Lession3Board alloc] init];
 		[self.stack pushBoard:board animated:YES];
 	}
 	else if ( [signal is:Lession3Board.BACK] )

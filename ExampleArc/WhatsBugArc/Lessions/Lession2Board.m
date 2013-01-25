@@ -29,7 +29,7 @@ DEF_SIGNAL( TEST )
 - (void)dealloc
 {
 	SAFE_RELEASE_SUBVIEW( _innerView );
-	[super dealloc];
+	//[super dealloc];
 }
 
 @end
@@ -53,7 +53,7 @@ DEF_SIGNAL( TEST )
 - (void)dealloc
 {
 	SAFE_RELEASE_SUBVIEW( _innerView );
-	[super dealloc];
+	//[super dealloc];
 }
 
 @end

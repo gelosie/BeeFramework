@@ -66,7 +66,7 @@ DEF_SIGNAL( ENTER );
 	
 	if ( [signal is:Lession4InnerBoard.ENTER] )
 	{
-		Lession4InnerBoard * board = [[[Lession4InnerBoard alloc] init] autorelease];
+		Lession4InnerBoard * board = [[Lession4InnerBoard alloc] init];
 		[self.stack pushBoard:board animated:YES];
 	}
 	else if ( [signal is:Lession4InnerBoard.BACK] )

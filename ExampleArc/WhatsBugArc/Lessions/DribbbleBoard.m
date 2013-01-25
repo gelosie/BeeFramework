@@ -147,9 +147,9 @@
 
 - (void)unload
 {
-	[_debutsModel release];
-	[_popularModel release];
-	[_everyoneModel release];
+	BEE_RELEASE(_debutsModel);
+	BEE_RELEASE(_popularModel);
+	BEE_RELEASE(_everyoneModel);
 
 	[super unload];
 }
@@ -351,7 +351,7 @@
 {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 
-	DribbblePhotoBoard * board = [[[DribbblePhotoBoard alloc] init] autorelease];
+	DribbblePhotoBoard * board = [[DribbblePhotoBoard alloc] init];
 	board.feed = [[self shots] safeObjectAtIndex:indexPath.row];
 	[self.stack pushBoard:board animated:YES];
 }

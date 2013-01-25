@@ -20,7 +20,8 @@ DEF_SIGNAL( BUTTON2_TOUCHED )
 
 - (void)unload
 {
-	[_model release];
+	//[_model release];
+    _model = nil;
 	
 	[super unload];
 }

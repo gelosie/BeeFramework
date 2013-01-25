@@ -120,7 +120,8 @@ DEF_SINGLETON( Lession11Board );
 - (void)unload
 {
 	[_records removeAllObjects];
-	[_records release];
+	//[_records release];
+    _records = nil;
 	
 	[super unload];
 }

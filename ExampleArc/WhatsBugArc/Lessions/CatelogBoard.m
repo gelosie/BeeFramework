@@ -95,7 +95,7 @@
 - (void)unload
 {
 	[_lessions removeAllObjects];
-	[_lessions release];
+	BEE_RELEASE(_lessions);
 	
 	[super unload];
 }
@@ -156,7 +156,7 @@
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 	
 	NSArray * data = [_lessions objectAtIndex:indexPath.row];
-	BeeUIBoard * board = [[(BeeUIBoard *)[BeeRuntime allocByClassName:(NSString *)[data objectAtIndex:0]] init] autorelease];
+	BeeUIBoard * board = [(BeeUIBoard *)[BeeRuntime allocByClassName:(NSString *)[data objectAtIndex:0]] init];
 	if ( board )
 	{
 		[self.stack pushBoard:board animated:YES];

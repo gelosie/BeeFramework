@@ -157,7 +157,8 @@ DEF_SINGLETON( Lession5Board );
 - (void)unload
 {
 	[_datas removeAllObjects];
-	[_datas release];
+	//[_datas release];
+    _datas = nil;
 	
 	[super unload];
 }

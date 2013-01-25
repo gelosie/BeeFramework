@@ -45,10 +45,10 @@
 	_total = 0;
 	
 	[_shots removeAllObjects];
-	[_shots release];
+    BEE_RELEASE(_shots);
 	_shots = nil;
 	
-	[_category release];
+    BEE_RELEASE(_category);
 	
 	[super unload];
 }

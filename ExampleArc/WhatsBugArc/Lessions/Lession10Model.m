@@ -18,8 +18,10 @@
 
 - (void)unload
 {
-	[_date release];
-	[_text release];
+	//[_date release];
+	//[_text release];
+    _date = nil;
+    _text = nil;
 	
 	[super unload];
 }

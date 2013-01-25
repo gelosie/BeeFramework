@@ -17,7 +17,8 @@
 
 - (void)unload
 {
-	[_feed release];
+	//[_feed release];
+    _feed = nil;
 	
 	[super unload];
 }

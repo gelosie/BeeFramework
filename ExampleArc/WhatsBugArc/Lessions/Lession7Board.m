@@ -87,7 +87,8 @@ DEF_SINGLETON( Lession7Board );
 - (void)unload
 {
 	[_items removeAllObjects];
-	[_items release];
+	//[_items release];
+    _items = nil;
 	
 	[super unload];
 }
@@ -157,7 +158,7 @@ DEF_SINGLETON( Lession7Board );
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 	
 	NSArray * data = [_items objectAtIndex:indexPath.row];
-	BeeUIBoard * board = [[(BeeUIBoard *)[BeeRuntime allocByClassName:(NSString *)[data objectAtIndex:0]] init] autorelease];
+	BeeUIBoard * board = [(BeeUIBoard *)[BeeRuntime allocByClassName:(NSString *)[data objectAtIndex:0]] init];
 	if ( board )
 	{
 		[self.stack pushBoard:board animated:YES];
