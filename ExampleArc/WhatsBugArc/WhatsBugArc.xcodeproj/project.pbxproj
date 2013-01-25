@@ -41,8 +41,6 @@
 		98F42B7916B2BEA400F1A948 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5416B2BEA400F1A948 /* Default.png */; };
 		98F42B7A16B2BEA400F1A948 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5516B2BEA400F1A948 /* Default@2x.png */; };
 		98F42B7B16B2BEA400F1A948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5616B2BEA400F1A948 /* InfoPlist.strings */; };
-		98F42B7C16B2BEA400F1A948 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5816B2BEA400F1A948 /* icon.png */; };
-		98F42B7D16B2BEA400F1A948 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5916B2BEA400F1A948 /* icon@2x.png */; };
 		98F42B7E16B2BEA400F1A948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F42B5A16B2BEA400F1A948 /* main.m */; };
 		98F42B7F16B2BEA400F1A948 /* WhatsBugArc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F42B5B16B2BEA400F1A948 /* WhatsBugArc-Info.plist */; };
 		98F42C9916B2BFFC00F1A948 /* Bee_Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F42B8216B2BFFC00F1A948 /* Bee_Debug.m */; };
@@ -173,6 +171,8 @@
 		98F42D1616B2BFFC00F1A948 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F42C9116B2BFFC00F1A948 /* FMResultSet.m */; };
 		98F42D1716B2BFFC00F1A948 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F42C9416B2BFFC00F1A948 /* JSONKit.m */; };
 		98F42D1816B2BFFC00F1A948 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F42C9716B2BFFC00F1A948 /* Reachability.m */; };
+		98F42D1A16B2C14100F1A948 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42D1916B2C14100F1A948 /* icon.png */; };
+		98F42D1C16B2C14900F1A948 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98F42D1B16B2C14900F1A948 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -238,8 +238,6 @@
 		98F42B5416B2BEA400F1A948 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		98F42B5516B2BEA400F1A948 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		98F42B5716B2BEA400F1A948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98F42B5816B2BEA400F1A948 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		98F42B5916B2BEA400F1A948 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		98F42B5A16B2BEA400F1A948 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98F42B5B16B2BEA400F1A948 /* WhatsBugArc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WhatsBugArc-Info.plist"; sourceTree = "<group>"; };
 		98F42B5C16B2BEA400F1A948 /* WhatsBugArc-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WhatsBugArc-Prefix.pch"; sourceTree = "<group>"; };
@@ -496,6 +494,8 @@
 		98F42C9416B2BFFC00F1A948 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		98F42C9616B2BFFC00F1A948 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		98F42C9716B2BFFC00F1A948 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		98F42D1916B2C14100F1A948 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		98F42D1B16B2C14900F1A948 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -515,6 +515,8 @@
 		98F42AEF16B2BDD500F1A948 = {
 			isa = PBXGroup;
 			children = (
+				98F42D1B16B2C14900F1A948 /* icon@2x.png */,
+				98F42D1916B2C14100F1A948 /* icon.png */,
 				98F42B8016B2BFFC00F1A948 /* BeeDebugger */,
 				98F42BAB16B2BFFC00F1A948 /* BeeFramework */,
 				98F42C6616B2BFFC00F1A948 /* BeeTemplates */,
@@ -620,8 +622,6 @@
 				98F42B5416B2BEA400F1A948 /* Default.png */,
 				98F42B5516B2BEA400F1A948 /* Default@2x.png */,
 				98F42B5616B2BEA400F1A948 /* InfoPlist.strings */,
-				98F42B5816B2BEA400F1A948 /* icon.png */,
-				98F42B5916B2BEA400F1A948 /* icon@2x.png */,
 				98F42B5A16B2BEA400F1A948 /* main.m */,
 				98F42B5B16B2BEA400F1A948 /* WhatsBugArc-Info.plist */,
 				98F42B5C16B2BEA400F1A948 /* WhatsBugArc-Prefix.pch */,
@@ -1161,8 +1161,6 @@
 				98F42B7916B2BEA400F1A948 /* Default.png in Resources */,
 				98F42B7A16B2BEA400F1A948 /* Default@2x.png in Resources */,
 				98F42B7B16B2BEA400F1A948 /* InfoPlist.strings in Resources */,
-				98F42B7C16B2BEA400F1A948 /* icon.png in Resources */,
-				98F42B7D16B2BEA400F1A948 /* icon@2x.png in Resources */,
 				98F42B7F16B2BEA400F1A948 /* WhatsBugArc-Info.plist in Resources */,
 				98F42CAB16B2BFFC00F1A948 /* bug@2x.png in Resources */,
 				98F42CAC16B2BFFC00F1A948 /* close@2x.png in Resources */,
@@ -1170,6 +1168,8 @@
 				98F42CAE16B2BFFC00F1A948 /* folder@2x.png in Resources */,
 				98F42CAF16B2BFFC00F1A948 /* heat@2x.png in Resources */,
 				98F42CB016B2BFFC00F1A948 /* tap@2x.png in Resources */,
+				98F42D1A16B2C14100F1A948 /* icon.png in Resources */,
+				98F42D1C16B2C14900F1A948 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
