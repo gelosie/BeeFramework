@@ -1,3 +1,4 @@
+
 #Bee framework
 
 A rapid development framework for iOS applications.
@@ -32,6 +33,8 @@ M. Duopeng, http://www.duopeng.com/
 N. VoiceFrom, http://voicefrom.me/    
 O. Distance Education Group, http://www.sdeg.cn/sdegPortal/    
 P. MesonTech, http://www.mesontech.com.cn/home/mesontech.jsp
+
+![Vendors](http://blog.whatsbug.com/wp-content/uploads/2013/01/bee_2013.jpg)
 
 ####Projects
 
@@ -600,6 +603,24 @@ Installation
    c. \#define \__BEE_DEBUGGER__     (1)    
 5. Build and run    
 6. Good luck    
+
+Import by cocoapods （Thanks @stcui）
+--------------------
+
+This fork is for porting to cocoapods
+
+use cocoapods to enjoy your development
+
+http://cocoapods.org
+
+just add 
+
+```
+platform :ios
+pod 'BeeFramefork'
+```
+
+to `Podfile` and run `pod install`
 
 
 [1]: http://www.whatsbug.com
