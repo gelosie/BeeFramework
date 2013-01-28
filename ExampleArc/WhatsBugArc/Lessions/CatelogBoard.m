@@ -90,6 +90,7 @@
 	[_lessions addObject:[NSArray arrayWithObjects:@"Lession10Board", @"Lession 10", @"How to use BeeCache", nil]];
 	[_lessions addObject:[NSArray arrayWithObjects:@"Lession11Board", @"Lession 11 (New)", @"How to use BeeActiveRecord", nil]];
 	[_lessions addObject:[NSArray arrayWithObjects:@"DribbbleBoard", @"Dribbble.com", @"Demo for dribbble.com", nil]];
+    [_lessions addObject:[NSArray arrayWithObjects:@"WebViewBoard", @"WebView Demo (New)", @"Demo for BeeUIWebView", nil]];
 }
 
 - (void)unload
